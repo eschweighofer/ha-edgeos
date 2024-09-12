@@ -88,6 +88,7 @@ class IntegrationBaseEntity(CoordinatorEntity):
 
             unique_id_parts = [
                 DOMAIN,
+                entity_name,
                 entity_description.platform,
                 entity_description.key,
                 item_id,
