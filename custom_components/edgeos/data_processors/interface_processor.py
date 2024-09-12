@@ -111,7 +111,7 @@ class InterfaceProcessor(BaseProcessor):
                                 interface_name, interface_data, int_type
                             )
                         else:
-                            _LOGGER.info(
+                            _LOGGER.debug(
                                 f"Skip loading interface {interface_name}, Type: {interface_type} is not supported"
                             )
 
